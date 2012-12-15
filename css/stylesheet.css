@@ -24,7 +24,7 @@
 
 body {padding-top: 50px; background-color: #fcfcfc;
 
-	font: 1.5em/1.7em 'fanwood' arial;
+	font: 1.5em/1.5em 'fanwood';
 }
 
 .hero-unit {
@@ -36,8 +36,41 @@ body {padding-top: 50px; background-color: #fcfcfc;
 	font-size: 5em;
 }
 
-h1 {font: bold 3em/1.5em "fanwood"; text-align: center;}
+h1 {font: bold 3em/1.5em "fanwood"; text-align: center; margin-bottom: 1em;
+}
+ul {
+	margin-left: 3em;
+}
+li {
+	line-height: 1.5em;
+}
+
+blockquote {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-right: 2em;
+}
+
+
+
+
 .date-header h2{font-size: 12px;}
+
+.footnote {
+	font-style: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 480px){
 body{font-size: 1.2em;}
