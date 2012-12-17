@@ -12,8 +12,13 @@ header {
 	font-size: 2em;
 	font-style: normal;
 }
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> master
 /*Typography Style*/
 h1 {font: bold 2.5em/1.5em "im_fell"; text-align: center; font-weight: normal;
 }
@@ -21,6 +26,7 @@ h1 {font: bold 2.5em/1.5em "im_fell"; text-align: center; font-weight: normal;
 
 h2,h3,h4,h5,h6 {
 	font-family: fanwood; font-weight: normal;
+<<<<<<< HEAD
 }
 
 h3 {
@@ -28,6 +34,15 @@ h3 {
 }
 
 
+=======
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+
+>>>>>>> master
 .chaptertext {
 	text-align: center;
 	font-size: .5em;
@@ -36,6 +51,7 @@ h3 {
 .chaptertext:before {
 	content: "y ";
 	font-family: Davys;
+<<<<<<< HEAD
 }
 
 .chaptertext:after {
@@ -45,6 +61,17 @@ h3 {
 	right: 50%;
 }
 
+=======
+}
+
+.chaptertext:after {
+	content: " y";
+	font-family: Davys;
+	z-index: -1;
+	right: 50%;
+}
+
+>>>>>>> master
 .subtitle {
 	text-align: center;
 	font-size: 1.5em;
@@ -85,6 +112,10 @@ blockquote {
 hr {
 	border-width: 0;
 	text-align: center;
+<<<<<<< HEAD
+=======
+	margin-bottom: 2em;
+>>>>>>> master
 	}
 
 
@@ -94,11 +125,39 @@ hr:after {
 	display: inline-block;
 	position: relative;
 	text-align: center;
+<<<<<<< HEAD
 	top: -1em;
 	z-index: 1;
 	color: #434343;
 	}
 
+=======
+	z-index: 1;
+	color: #434343;
+	top: -1em;
+	}
+.hr-line {
+	border-width: 1;
+	text-align: center;
+	}
+
+.hr-line:after {
+	content: "e";
+	font: 2em 'Davys';
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	color: #434343;
+	top: -1em;
+	}	
+	
+	
+	
+	
+	
+
+>>>>>>> master
 .aoc {
 	float: left;
 	margin-right: .5em;
@@ -128,6 +187,7 @@ hr:after {
 	position: relative;
 	top: -.5em;
 	color: red;
+<<<<<<< HEAD
 }
 
 
@@ -169,6 +229,96 @@ h1 {
 .subtitle {
 	margin-bottom:1em; font-size: 1.2em;
 }
+=======
+}
+
+
+
+.test{
+	font-family: davys;
+	font-size: 4em;
+	line-height: 2em;
+}
+
+
+/*Special Index.html Style*/
+.toc-front {
+	text-align: center;
+	color: #333;
+}
+.toc-front a{
+	color: #333;
+}
+.attribute {
+	border: 3px double #666;
+	padding: 1em;
+	margin: 1em 0;
+	font-size: 1em;
+	color: #333;
+}
+/* End of Special Index.html Style*/
+
+/* Jquery TOC Style */
+.toc-container {
+	text-align: center;
+	margin-bottom: 1em;
+}
+.toc {
+		font-family: fanwood;
+		font-size: 1.2em;
+	}
+.toc-title:before {content: "R"; font-family: davys; display: inline-block; z-index: 1; position: relative; left: -10px;}
+.toc-title:after {content: "T"; font-family: davys; display: inline-block; z-index: 1; position: relative; right: -10px;}		
+	
+.toc a {
+       color: #333;
+		}
+.toc .tocH2 {
+		margin-left: 10px
+     }
+.toc ul {
+     	margin: 0;
+     	padding: 0;
+     }
+.toc li {
+     	list-style: none;
+     	margin: 0;
+     	padding: 0;
+     	z-index: 2;
+     	}
+
+     	
+.toc a:hover {
+     	text-decoration: none;
+     	font-weight: bold;
+     }
+     	          
+.toc-active a{
+            font-weight: bold;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Design Style */
+@media (max-width: 400px){
+h1 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+.subtitle {
+	margin-bottom:1em; font-size: 1.2em;
+}
+>>>>>>> master
 .subtitle:before {
 	display: none;
 }
