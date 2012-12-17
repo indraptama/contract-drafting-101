@@ -12,13 +12,13 @@ header {
 	font-size: 2em;
 	font-style: normal;
 }
-<<<<<<< HEAD
 
 
-=======
 
 
->>>>>>> master
+
+
+
 /*Typography Style*/
 h1 {font: bold 2.5em/1.5em "im_fell"; text-align: center; font-weight: normal;
 }
@@ -26,7 +26,7 @@ h1 {font: bold 2.5em/1.5em "im_fell"; text-align: center; font-weight: normal;
 
 h2,h3,h4,h5,h6 {
 	font-family: fanwood; font-weight: normal;
-<<<<<<< HEAD
+
 }
 
 h3 {
@@ -34,7 +34,7 @@ h3 {
 }
 
 
-=======
+
 }
 
 h3 {
@@ -42,7 +42,7 @@ h3 {
 }
 
 
->>>>>>> master
+
 .chaptertext {
 	text-align: center;
 	font-size: .5em;
@@ -51,7 +51,7 @@ h3 {
 .chaptertext:before {
 	content: "y ";
 	font-family: Davys;
-<<<<<<< HEAD
+
 }
 
 .chaptertext:after {
@@ -61,7 +61,7 @@ h3 {
 	right: 50%;
 }
 
-=======
+
 }
 
 .chaptertext:after {
@@ -71,7 +71,7 @@ h3 {
 	right: 50%;
 }
 
->>>>>>> master
+
 .subtitle {
 	text-align: center;
 	font-size: 1.5em;
@@ -112,10 +112,10 @@ blockquote {
 hr {
 	border-width: 0;
 	text-align: center;
-<<<<<<< HEAD
-=======
+
+
 	margin-bottom: 2em;
->>>>>>> master
+
 	}
 
 
@@ -125,13 +125,13 @@ hr:after {
 	display: inline-block;
 	position: relative;
 	text-align: center;
-<<<<<<< HEAD
+
 	top: -1em;
 	z-index: 1;
 	color: #434343;
 	}
 
-=======
+
 	z-index: 1;
 	color: #434343;
 	top: -1em;
@@ -157,7 +157,7 @@ hr:after {
 	
 	
 
->>>>>>> master
+
 .aoc {
 	float: left;
 	margin-right: .5em;
@@ -187,7 +187,7 @@ hr:after {
 	position: relative;
 	top: -.5em;
 	color: red;
-<<<<<<< HEAD
+
 }
 
 
@@ -229,7 +229,7 @@ h1 {
 .subtitle {
 	margin-bottom:1em; font-size: 1.2em;
 }
-=======
+
 }
 
 
@@ -318,7 +318,7 @@ h1 {
 .subtitle {
 	margin-bottom:1em; font-size: 1.2em;
 }
->>>>>>> master
+
 .subtitle:before {
 	display: none;
 }
