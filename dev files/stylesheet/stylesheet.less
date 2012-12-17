@@ -1,0 +1,161 @@
+// LESS
+
+// color
+@90white: #fcfcfc;
+@80black: #434343;
+
+// Typography
+.imfellfont {font-family: im_fell, Georgia, Times, Serif; font-weight:normal; text-align:center}
+.linlibertinefont {font-family: linlibertine, Times, serif}
+.fanwoodfont {font-family: fanwood, georgia, times, serif}
+.nadiafont {font-family: nadiaserif, georgia, times, serif}
+.ornamentfont {font-family:davys; margin:0 .2em}
+
+
+html {background-color:@90white;}
+body {padding-top:50px; background-color:@90white; .linlibertinefont; font-size:1.2em; line-height:1.5em;}
+
+h1 {.imfellfont}
+h2,h3,h4,h5,h6 {.fanwoodfont; font-weight:normal}
+h3 {font-size: 1.2em}
+
+header {.imfellfont; text-align:center; font-weight:normal; margin:2em 0;
+	h1{font-size:3em} 
+	h2{font-size:2em}
+	}
+
+article {hr {border-width:0; text-align:center}}
+article hr:after {.ornamentfont; content:"a"; position:relative; top:-.5em}
+
+blockquote {.nadiafont; font-size:.7em; margin:0 2em 0 4em; border-left:none; }
+
+a {color:80%black}
+.footnote {.fanwoodfont; font-size:.8em; position:relative; top:-.5em}
+
+
+
+
+
+
+
+
+// Ornament
+.chaptertext {text-align:center; font-size:.5em; line-height:.5em;}
+.chaptertext:after{.ornamentfont; content:"y"}
+.chaptertext:before{.ornamentfont; content:"y"}
+
+.subtitle {text-align:center; font-size:1.5em}
+.subtitle:before {.ornamentfont; content:"u"}
+.subtitle:after {.ornamentfont; content:"v"}
+
+.toc-title:before {.ornamentfont; content:"R"}
+.toc-title:after {.ornamentfont; content:"T"}
+
+.aoc {float:left; margin:.5em;max-width:80px}
+
+
+
+
+
+
+
+
+
+
+
+
+// Layout
+.toc-container {text-align:center; ul{list-style:none; margin:0; padding:0} a:hover{text-decoration:none}}
+
+.columns (@column:3){text-indent: none;
+	-webkit-column-count: @column;
+	-moz-column-count: @column;
+	column-count: @column;
+	-webkit-column-gap: 20px;
+	-moz-column-gap: 20px;
+	column-gap: 20px;
+	-webkit-column-rule: 1px solid #ccc;
+	-moz-column-rule: 1px solid #ccc;
+	column-rule: 1px solid #ccc; 
+	ul {margin:0}
+}
+
+
+// Attribution
+.attribute {
+	border: 3px double #666;
+	padding: 1em;
+	margin: 1em 0;
+	font-size: .8em;
+	line-height:1em;
+	color: #333; h2{text-align:center}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Responsive Design Style
+
+// max widht 400px 
+@media (max-width: 400px){
+	h1 {
+		font-size: 1.5em;
+		margin-bottom: 1em;
+		}
+	.subtitle {
+		margin-bottom:1em; font-size: 1.2em;
+		}
+
+	.subtitle:before {
+			display: none;
+		}
+	.subtitle::after {
+		display: none;
+		}
+	#autocolumn {.columns(1);}	
+
+
+}
+
+// max width 480px
+@media (max-width: 480px){
+	body{font-size: 1em;}
+
+	header h1 {
+		font-size: 2em;
+	}
+	blockquote {
+		font-size: .7em;
+	}
+
+	h1 {
+	font-size: 2em;
+	line-height: 1em;
+	}
+
+	h2 {
+	font-size: 1.3em; line-height: 1em;
+	}
+	.autocolumn {.columns (2)}
+
+
+} 
+
+// min width 980
+@media (min-width: 980px) {
+	.autocolumns {.columns(3)}
+}
