@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Davys';
 
-    src: url('../fonts/Davys/DavysDingbats-webfont.eot');
-    src: url('../fonts/Davys/DavysDingbats-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Davys/DavysDingbats-webfont.woff') format('woff'),
-         url('../fonts/Davys/DavysDingbats-webfont.ttf') format('truetype'),
-         url('../fonts/Davys/DavysDingbats-webfont.svg#DavysRegular') format('svg');
+    src: url('../fonts/davys/DavysDingbats-webfont.eot');
+    src: url('../fonts/davys/DavysDingbats-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/davys/DavysDingbats-webfont.woff') format('woff'),
+         url('../fonts/davys/DavysDingbats-webfont.ttf') format('truetype'),
+         url('../fonts/davys/DavysDingbats-webfont.svg#DavysRegular') format('svg');
 
     font-weight: normal;
     font-style: normal;
@@ -103,11 +103,11 @@
 @font-face {
     font-family: 'NadiaSerif';
 
-    src: url('../fonts/Nadia/nadia_serif-webfont.eot');
-    src: url('../fonts/Nadia/nadia_serif-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Nadia/nadia_serif-webfont.woff') format('woff'),
-         url('../fonts/Nadia/nadia_serif-webfont.ttf') format('truetype'),
-         url('../fonts/Nadia/nadia_serif-webfont.svg#NadiaSerifNormal') format('svg');
+    src: url('../fonts/nadia/nadia_serif-webfont.eot');
+    src: url('../fonts/nadia/nadia_serif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nadia/nadia_serif-webfont.woff') format('woff'),
+         url('../fonts/nadia/nadia_serif-webfont.ttf') format('truetype'),
+         url('../fonts/nadia/nadia_serif-webfont.svg#NadiaSerifNormal') format('svg');
 
 
     font-weight: normal;
