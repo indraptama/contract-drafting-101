@@ -85,6 +85,7 @@ blockquote {
 hr {
 	border-width: 0;
 	text-align: center;
+	margin-bottom: 2em;
 	}
 
 
@@ -94,10 +95,30 @@ hr:after {
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	top: -1em;
 	z-index: 1;
 	color: #434343;
+	top: -1em;
 	}
+.hr-line {
+	border-width: 1;
+	text-align: center;
+	}
+
+.hr-line:after {
+	content: "e";
+	font: 2em 'Davys';
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	color: #434343;
+	top: -1em;
+	}	
+	
+	
+	
+	
+	
 
 .aoc {
 	float: left;
@@ -139,7 +160,7 @@ hr:after {
 }
 
 
-/*Index.html Style*/
+/*Special Index.html Style*/
 .toc-front {
 	text-align: center;
 	color: #333;
@@ -154,8 +175,55 @@ hr:after {
 	font-size: 1em;
 	color: #333;
 }
+/* End of Special Index.html Style*/
 
-/* End Index.html Style*/
+/* Jquery TOC Style */
+.toc-container {
+	text-align: center;
+	margin-bottom: 1em;
+}
+.toc {
+		font-family: fanwood;
+		font-size: 1.2em;
+	}
+.toc-title:before {content: "R"; font-family: davys; display: inline-block; z-index: 1; position: relative; left: -10px;}
+.toc-title:after {content: "T"; font-family: davys; display: inline-block; z-index: 1; position: relative; right: -10px;}		
+	
+.toc a {
+       color: #333;
+		}
+.toc .tocH2 {
+		margin-left: 10px
+     }
+.toc ul {
+     	margin: 0;
+     	padding: 0;
+     }
+.toc li {
+     	list-style: none;
+     	margin: 0;
+     	padding: 0;
+     	z-index: 2;
+     	}
+
+     	
+.toc a:hover {
+     	text-decoration: none;
+     	font-weight: bold;
+     }
+     	          
+.toc-active a{
+            font-weight: bold;
+	}
+
+
+
+
+
+
+
+
+
 
 
 
