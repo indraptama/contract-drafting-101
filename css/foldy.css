@@ -179,3 +179,7 @@ code {
   margin-bottom: 1em;
   text-align: center;
 }
+
+li {
+	list-style: none;
+}

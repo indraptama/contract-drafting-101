@@ -1,0 +1,51 @@
+!!! 5
+html(lang="id")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport",content="width=device-width", initial-scale="1.0")	
+		title Beberapa Contoh Perjanjian
+		link(rel="stylesheet", type="text/css", href="css/bootstrap.min.css")
+		link(rel="stylesheet", type="text/css", href="css/stylesheet.css")  
+		link(rel="stylesheet", type="text/css", href="css/bootstrap-responsive.min.css")
+		link(rel="stylesheet", type="text/css", href="css/typography.css")
+		script(type="text/javascript")
+		// if lt IE 9 
+			script(src="http://html5shim.googlecode.com/svn/trunk/html5.js")
+	body.container
+		header
+			h1 Contract Drafting 101
+		h1 
+			span.chaptertext BAB I 
+			<br />Pendahuluan
+		aside.toc-container
+			h2 
+				span.toc-title Table of Content
+			.toc
+		hr		
+		article
+			section
+				:markdown
+					###Apa itu Perjanjian ?
+					Manusia adalah zon politiocon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// place script on bottom of page for faster load
+		// script Source
+		script(type="text/javascript", src="js/jquery.js")
+		script(type="text/javascript", src="js/bootstrap.min.js")
+		script(type="text/javascript", src="js/jquery.toc.min.js")
+		// script Trigger
+		script $('[rel="tooltip"]').tooltip('show') $('[rel="tooltip"]').tooltip('hide');
+		script $('.toc').toc({'container':'article', 'selectors':'h3'});	

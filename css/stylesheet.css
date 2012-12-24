@@ -10,7 +10,7 @@
   font-family: fanwood, georgia, times, serif;
 }
 .nadiafont {
-  font-family: nadiaserif, georgia, times, serif;
+  font-family: nadiaserif, courier, mono;
 }
 .ornamentfont {
   font-family: davys;
@@ -44,8 +44,6 @@ h3 {
 }
 header {
   font-family: im_fell, Georgia, Times, Serif;
-  font-weight: normal;
-  text-align: center;
   text-align: center;
   font-weight: normal;
   margin: 2em 0;
@@ -68,10 +66,14 @@ article hr:after {
   top: -0.5em;
 }
 blockquote {
-  font-family: nadiaserif, georgia, times, serif;
-  font-size: .7em;
-  margin: 0 2em 0 4em;
+  font-family: nadiaserif, courier, mono;
+  font-size: .8em;
+  margin: 0 2em 1em 4em;
   border-left: none;
+}
+blockquote p {
+  font-size: 1em;
+  line-height: 1.1em;
 }
 a {
   color: 80% #000000;
@@ -123,7 +125,7 @@ a {
 }
 .aoc {
   float: left;
-  margin: .5em;
+  margin: 0 5px 5px 0;
   max-width: 80px;
 }
 .toc-container {
@@ -137,37 +139,58 @@ a {
 .toc-container a:hover {
   text-decoration: none;
 }
+.contract-container {
+  border: 3px double #666;
+  padding: 1em;
+  margin: 1em 0;
+  font-size: .8em;
+  line-height: 1.1em;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: nadiaserif, courier, mono;
+  font-weight: normal;
+}
+.contract-container h2 {
+  text-align: center;
+}
+.contract-container h3,
+.contract-container h4 {
+  text-align: center;
+  font-family: nadiaserif, courier, mono;
+  padding: 0 1em 1em;
+}
+.contract-container ol,
+.contract-container ul {
+  margin-left: 3em;
+  line-height: 1.5em;
+}
+.contract-container p {
+  margin-bottom: 0;
+}
 .attribute {
   border: 3px double #666;
   padding: 1em;
   margin: 1em 0;
   font-size: .8em;
-  line-height: 1em;
+  line-height: 1.1em;
   color: #333;
 }
 .attribute h2 {
   text-align: center;
 }
-@media (max-width: 400px) {
-  h1 {
-    font-size: 1.5em;
-    margin-bottom: 1em;
-  }
-  .subtitle {
-    margin-bottom: 1em;
-    font-size: 1.2em;
-  }
-  .subtitle:before {
-    display: none;
-  }
-  .subtitle::after {
-    display: none;
-  }
-  #autocolumn {
+@media (min-width: 768px) and (max-width: 979px) {
+  
+}
+@media (max-width: 767px) {
+  
+}
+@media (min-width: 1200px) {
+  .autocolumn {
     text-indent: none;
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px;
     column-gap: 20px;
@@ -175,19 +198,13 @@ a {
     -moz-column-rule: 1px solid #ccc;
     column-rule: 1px solid #ccc;
   }
-  #autocolumn ul {
+  .autocolumn ul {
     margin: 0;
   }
 }
-@media (max-width: 480px) {
-  body {
-    font-size: 1em;
-  }
+@media (min-width: 768px) and (max-width: 979px) {
   header h1 {
     font-size: 2em;
-  }
-  blockquote {
-    font-size: .7em;
   }
   h1 {
     font-size: 2em;
@@ -213,12 +230,35 @@ a {
     margin: 0;
   }
 }
-@media (min-width: 980px) {
-  .autocolumns {
+@media (max-width: 767px) {
+  
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  blockquote {
+    margin-left: 0px;
+  }
+  .subtitle {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+  }
+  .subtitle:before {
+    display: none;
+  }
+  .subtitle::after {
+    display: none;
+  }
+  .autocolumn {
     text-indent: none;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px;
     column-gap: 20px;
@@ -226,7 +266,13 @@ a {
     -moz-column-rule: 1px solid #ccc;
     column-rule: 1px solid #ccc;
   }
-  .autocolumns ul {
+  .autocolumn ul {
     margin: 0;
   }
+}
+@media (max-width: 979px) {
+  
+}
+@media (min-width: 980px) {
+  
 }

@@ -1,5 +1,6 @@
-F# Beberapa Aspek Mengenai Perjanjian
-Perjanjian merupakan salah satu sumber perikatan. Ketentuan Pasal 1313 Kitab Undang-Undang Hukum Perdata (KUHPerdata) memberikan definisi perjanjian sebagai berikut :
+# Beberapa Aspek Mengenai Perjanjian
+<div class="TOC"></div>
+Perjanjian merupakan salah satu sumber perikatan. Ketentuan Pasal 1313 Kitab Undang-Undang Hukum Perdata (KUHPerdata) memberikan definisi perjanjian sebagai berikut : 
 > “Suatu perjanjian adalah suatu perbuatan dengan mana satu orang atau lebih mengikatkan dirinya terhadap satu orang lain atau lebih.”
 
 Perjanjian adalah suatu peristiwa dimana seseorang berjanji kepada orang lain atau di mana dua orang itu saling berjanji untuk melaksanakan suatu hal.
@@ -9,38 +10,64 @@ Terdapat beberapa asas yang melandasi pelaksanaan suatu perjanjian. Beberapa asa
 ### 1. Asas Kebebasan Berkontrak, 
 Asas kebebasan berkontrak dapat dilihat dalam pasal 1338 KUHPerdata yang berbunyi 
 > “Semua perjanjian yang dibuat secara sah berlaku sebagai undang-undang bagi mereka yang membuatnya”. 
-Asas kebebasan berkontrak adalah suatu asas yang memberikan kebebasan kepada para pihak untuk membuat atau tidak suatu perjanjian, mengadakan perjanjian dengan siapa pun, Menentukan isi perjanjian, bagaimana pelaksanaannya dan persyaratan-persyaratannya serta menentukan bentuknya perjanjian apakah tertulis atau lisan. [^fn] 
-[^fn]:Riduan Syahrani. Hlm 203]
-Kebebasan berkontrak bukan berarti boleh membuat perjanjian secara bebas, melainkan harus memenuhi syarat-syarat tertentu untuk sahnya suatu perjanjian. Menurt Riduan Syaharani, maksud kebebasan berkontrak adalah bebas untuk menentukan isi dan macamnya perjanjian sepanjang tidak bertentangan dengan kesusilaan dan ketertiban umum (Pasal 1338 dan 1337 KUHPerdata). Dengan kata lain, para pihak membuat perjanjian tersebut dalam keadaan bebas, tetapi bebas dalam arti selalu berada dalam ruang gerak yang dibenarkan atau sesuai dengan ketentuan hukum yang berlaku. [^fn] [^fn]:Riduan Syahrani. Hlm 205]
+Asas kebebasan berkontrak adalah suatu asas yang memberikan kebebasan kepada para pihak untuk membuat atau tidak suatu perjanjian, mengadakan perjanjian dengan siapa pun, Menentukan isi perjanjian, bagaimana pelaksanaannya dan persyaratan-persyaratannya serta menentukan bentuknya perjanjian apakah tertulis atau lisan. [^fn1] 
+
+[^fn1]:Riduan Syahrani. Hlm 203
+Kebebasan berkontrak bukan berarti boleh membuat perjanjian secara bebas, melainkan harus memenuhi syarat-syarat tertentu untuk sahnya suatu perjanjian. Menurt Riduan Syaharani, maksud kebebasan berkontrak adalah bebas untuk menentukan isi dan macamnya perjanjian sepanjang tidak bertentangan dengan kesusilaan dan ketertiban umum (Pasal 1338 dan 1337 KUHPerdata). Dengan kata lain, para pihak membuat perjanjian tersebut dalam keadaan bebas, tetapi bebas dalam arti selalu berada dalam ruang gerak yang dibenarkan atau sesuai dengan ketentuan hukum yang berlaku. [^fn2] 
+[^fn2]:Riduan Syahrani. Hlm 205
 ### 2. Asas Konsensualisme (*Consensualisme*)
-Perjanjian terbentuk karena adanya perjumpaan kehendak dari pihak-pihak. Perjanjian pada pokoknya dapat dibuat bebas tidak terikat bentuk dan tercapai tidak secara formil, tetapi cukup melalui konsensus belaka.[^fn] [^fn]:Herlien Boediono, Ajaran Umum:Hukum Perjanjian dan Penerapannya di Bidang Kenotariatan, Cetakan I, Bandung: Citra Aditya Bakti, 2009. Hlm 29] 
-Menurut asas konsensualisme, suatu perjanjian sudah terbentuk dengan adanya kesepakatan dari para pihak yang membuatnya. Kemudian agar perjanjian itu sah adanya maka harus memenuhi syarat-syarat dalam pasal 1320 KUHPerdata. Namun, asas tersebut tidak cukup untuk perjanjian formil karena masih ada formalitas lain yang diatur dalam undang-undang yang harus dipatuhi.[^fn] [^fn]:Elly Erawati dan Herlien Boediono, Penjelasan Hukum Tentang Kebatalan Perjanjian. National Legal Refrom Program, Jakarta, 2010. Hlm 7] 
+Perjanjian terbentuk karena adanya perjumpaan kehendak dari pihak-pihak. Perjanjian pada pokoknya dapat dibuat bebas tidak terikat bentuk dan tercapai tidak secara formil, tetapi cukup melalui konsensus belaka.[^fn] 
+[^fn]:Herlien Boediono, Ajaran Umum:Hukum Perjanjian dan Penerapannya di Bidang Kenotariatan, Cetakan I, Bandung: Citra Aditya Bakti, 2009. Hlm 29] 
+Menurut asas konsensualisme, suatu perjanjian sudah terbentuk dengan adanya kesepakatan dari para pihak yang membuatnya. Kemudian agar perjanjian itu sah adanya maka harus memenuhi syarat-syarat dalam pasal 1320 KUHPerdata. Namun, asas tersebut tidak cukup untuk perjanjian formil karena masih ada formalitas lain yang diatur dalam undang-undang yang harus dipatuhi.[^fn3]
+
+[^fn3]:Elly Erawati dan Herlien Boediono, Penjelasan Hukum Tentang Kebatalan Perjanjian. National Legal Refrom Program, Jakarta, 2010. Hlm 7] 
 ### 3. Asas Kekuatan Mengikat (*Verbindende kracht der overrnkomst*)
-Para pihak harus memenuhi apa yang telah mereka sepakati dalam perjanjian yang telah mereka buat. Dengan kata lain, asas ini melandasai pernyataan bahwa suatu perjanjian akan mengakibatkan suatu kewajiban hukum dan karena itu para pihak terkait untuk melaksanakan kesepakatan kontraktual. [^fn] [^fn]:Herlien Boediono, Ajaran Umum Hukum Perjanjian, hlm.30]
-Para pihak terikat pada apa yang diperjanjikan, dan juga terhadap beberapa unsur lain sepanjang dikehendaki oleh kebiasaan dan kepatuhan, dan kebiasaan akan mengikat para pihak. [^fn] [^fn]:Mariam Darus Badrulzaman, Aneka Hukum Bisnis, Cetakan III, Alumni, Bandung, 2011. Hlm.42]
+Para pihak harus memenuhi apa yang telah mereka sepakati dalam perjanjian yang telah mereka buat. Dengan kata lain, asas ini melandasai pernyataan bahwa suatu perjanjian akan mengakibatkan suatu kewajiban hukum dan karena itu para pihak terkait untuk melaksanakan kesepakatan kontraktual. [^fn5]
+[^fn5]:Herlien Boediono, Ajaran Umum Hukum Perjanjian, hlm.30]
+Para pihak terikat pada apa yang diperjanjikan, dan juga terhadap beberapa unsur lain sepanjang dikehendaki oleh kebiasaan dan kepatuhan, dan kebiasaan akan mengikat para pihak. [^fn6]
+[^fn6]:Mariam Darus Badrulzaman, Aneka Hukum Bisnis, Cetakan III, Alumni, Bandung, 2011. Hlm.42]
 ***
 ## Syarat sahnya suatu perjanjian
-Syarat-syarat sahnya suatu perjanjian disebutkan dalam ketentuan pasal 1320 KHUPerdata, yaitu 
+Syarat-syarat sahnya suatu perjanjian disebutkan dalam ketentuan pasal 1320 KHUPerdata, yaitu : 
 > “Sepakat mereka yang mengikatkan dirinya, Cakap untuk membuat suatu perjanjian, suatu hal tertentu, suatu sebab yang halal.”
 
 ### 1. Sepakat mereka yang mengikatnya;
-Sepakat mereka yang mengikatkan dirinya mengandung makna bahwa para pihak yang membuat perjanjian telah sepakat atau ada persetujuan kemauan atau saling menyetujui kehendak masing-masing, yang dilahirkan oleh para pihak dengan tidak ada paksaan, kekeliruan  dan penipuan. Persetujuan mana yang dapat dinyatakan secara tegas maupun diam-diam. [^fn] [^fn]:Riduan Syahrani, Op.Cit. hlm. 205]
-Pengertian sepakat dilukiskan sebagai persyaratan kehendak yang disetujui (*overeenstemende wilsverklaring*) antara pihak-pihak. Pernyataan pihak yang menawarkan dinamakan tawaran (*offerte*). Pernyataan pihak yang menerima tawaran dinamakan akseptasi (*Acceptatie*).[^fn] [^fn]:Miriam Darus Badruzman]
+Sepakat mereka yang mengikatkan dirinya mengandung makna bahwa para pihak yang membuat perjanjian telah sepakat atau ada persetujuan kemauan atau saling menyetujui kehendak masing-masing, yang dilahirkan oleh para pihak dengan tidak ada paksaan, kekeliruan  dan penipuan. Persetujuan mana yang dapat dinyatakan secara tegas maupun diam-diam[^fn7].
+[^fn7]:Riduan Syahrani, Op.Cit. hlm. 205]
+Pengertian sepakat dilukiskan sebagai persyaratan kehendak yang disetujui (*overeenstemende wilsverklaring*) antara pihak-pihak. Pernyataan pihak yang menawarkan dinamakan tawaran (*offerte*). Pernyataan pihak yang menerima tawaran dinamakan akseptasi (*Acceptatie*)[^fn8].
+[^fn8]:Miriam Darus Badruzman]
 ### 2. Cakap untuk membuat suatu perjanjian
 Berdasarkan pasal 1329 KUHPerdata dinyatakan “Tiap orang berwenang untuk membuat perikatan, kecuali jika ia dinyatakan tidak cakap untuk hal itu”. Selanjutnya dalam pasal 1330 KUHPerdata ditegaskan kategori yang tidak cakap adalah sebagai berikut : 
-> “Yang tidak cakap untuk membuat persetujuan adalah 	Anak yang belum dewasa, 	Orang yang ditaruh dibawah pengampuan dan 3)	Perempuan yang telah kawin dalam hal-hal yang ditentukan undang-undang dan pada umumnya semua orang yang oleh undang-undang dilarang untuk membuat persetujuan tertentu.”
+> “Yang tidak cakap untuk membuat persetujuan adalah :
+1.	Anak yang belum dewasa, 	
+2. Orang yang ditaruh dibawah pengampuan dan 
+3. Perempuan yang telah kawin dalam hal-hal yang ditentukan undang-undang dan pada umumnya semua orang yang oleh undang-undang dilarang untuk membuat persetujuan tertentu.”
+
 Terdapat beberapa perbedaan mengenai kriteria umur dewasa seseorang dalam peraturan perundang-undangan. Penafsiran argumentum a contrario Pasal 330 KUHPerdata menyebutkan bahwa dewasa adalah mereka yang berumur 21 tahun dan telah menikah. Ketentuan Pasal 7 ayat (1) Undang-Undang Nomor 1 Tahun 1974 Tentang Perkawinan memberikan ketentuan syarat minimal untuk menikah untuk perempuan berusia 16 tahun dan pria 19 tahun. Ketentuan Pasal 39 ayat 1 Undang-undang Nomor 30 Tahun 2004 Tentang Jabatan Notaris menyebutkan bahwa penghadap harus memenuhi syarat minimal umur 18 tahun atau telah menikah dan cakap melakukan perbuatan hukum.
-Kecakapan bertindak memang berkaitan dengan faktor umur, dan faktor umum ini didasarkan atas anggapan bahwa orang di bawah umur tertentu belum dapat menyadari sepenuhnya akibat dari perbuatannya maka dapat disimpulkan bahwa masalah ketidakcakapan bertindak di dalam hukum tidak harus sesuai dengan kenyataan. Dengan kata lain, ketidakcakapan di sini adalah ketidakcakapan yuridis atau ketidak-cakapan yang dipersangkalkan (jurisische onbekwaamheid atau veronderstelde onbekwaamheid), bukan ketidakcakapan yang senyatanya (sesuai dengan kenyataan yang ada).[^fn] [^fn]:Ade Maman Suherman dan J.Satrio, Penjelasan Hukum Tentang Batas Umur (Kecakapan dan Kewenangan Bertindak Berdasarkan Batasan Umur), Nasional Legal Reform Program, Jakarta, 2010. Hlm 39.]
-Golongan lain yang dianggap tidak cakap untuk membuat kontrak adalah apabila orang tersebut ditaruh dibawah pengampuan (Curatele) vide Pasal 330 angka 2 KUHPerdata tentang siapa saja yang dimaksud orang yang dibawah pengampuan diterangkan dengan jelas oleh pasal 433 KUHPerdata, yaitu terdapat 4 kriteria antara lain : orang yang dungu, orang gila, orang yang mata gelap dan orang yang boros.[^fn] [^fn]:Munir Fuady, Hukum Kontrak (Dari Sudut Pandang Hukum Bisnis), Citra Aditya Bakti, Bandung, 1999, hlm. 65]
-Debitor yang telah diputus pailit dianggap tidak cakap (onbekwaam) untuk mengurus dan menguasai hartanya . Pengurusan dan penguasaan atas harta kekayaan Debitor beralih kepada Kurator. [^fn] [^fn]:Man S Sastrawidjaja, Hukum Kepailitan dan Penundaan Kewajiban Hutang, Cet.II. Alumni, Bandung 2010. Hlm 81]
+
+Kecakapan bertindak memang berkaitan dengan faktor umur, dan faktor umum ini didasarkan atas anggapan bahwa orang di bawah umur tertentu belum dapat menyadari sepenuhnya akibat dari perbuatannya maka dapat disimpulkan bahwa masalah ketidakcakapan bertindak di dalam hukum tidak harus sesuai dengan kenyataan. Dengan kata lain, ketidakcakapan di sini adalah ketidakcakapan yuridis atau ketidak-cakapan yang dipersangkalkan (jurisische onbekwaamheid atau veronderstelde onbekwaamheid), bukan ketidakcakapan yang senyatanya (sesuai dengan kenyataan yang ada)[^fn9].
+
+[^fn9]:Ade Maman Suherman dan J.Satrio, Penjelasan Hukum Tentang Batas Umur (Kecakapan dan Kewenangan Bertindak Berdasarkan Batasan Umur), Nasional Legal Reform Program, Jakarta, 2010. Hlm 39.]
+
+
+Golongan lain yang dianggap tidak cakap untuk membuat kontrak adalah apabila orang tersebut ditaruh dibawah pengampuan (Curatele) vide Pasal 330 angka 2 KUHPerdata tentang siapa saja yang dimaksud orang yang dibawah pengampuan diterangkan dengan jelas oleh pasal 433 KUHPerdata, yaitu terdapat 4 kriteria antara lain : orang yang dungu, orang gila, orang yang mata gelap dan orang yang boros.[^fn10]
+
+[^fn10]:Munir Fuady, Hukum Kontrak (Dari Sudut Pandang Hukum Bisnis), Citra Aditya Bakti, Bandung, 1999, hlm. 65]
+Debitor yang telah diputus pailit dianggap tidak cakap (onbekwaam) untuk mengurus dan menguasai hartanya . Pengurusan dan penguasaan atas harta kekayaan Debitor beralih kepada Kurator. [^fn11]
+[^fn11]:Man S Sastrawidjaja, Hukum Kepailitan dan Penundaan Kewajiban Hutang, Cet.II. Alumni, Bandung 2010. Hlm 81]
 ### 3. Suatu hal tertentu 
 Suatu hal tertentu tidak lain adalah apa yang menjadi kewajiban dari debitor dan apa yang menjadi hak kreditor.[^fn] [^fn]:Herlien Boediono, Op.Cit hlm.107]. Ketentuan KUHPerdata Pasal 1332 sampai dengan Pasal 1334 mengatur mengenai barang yang dapat dijadikan objek perjanjian, antara lain : 
 - Hanya barang-barang yang dapat diperdagangkan saja dapat menjadi pokok persetujuan. (Pasal 1332 KUHPerdata)
 - Suatu persetujuan harus mempunyai pokok suatu barang yang paling sedikit ditentukan jenisnya. Tidaklah menjadi halangan bahwa jumlah barang tidak tentu, asal saja jumlah itu kemudian dapat ditentukan atau dihitung.(Pasal 1333 KUHPerdata)
 - Barang yang baru akan ada di kemudian hari dapat menjadi pokok suatu persetujuan (Pasal 1334 ayat (1) KUHPerdata)”.
 Berdasarkan Pasal 1332 dan 1333 KUHPerdata, jelaslah bahwa untuk sahnya perjanjian maka objeknya haruslah tertentu, atau setidaknya cukup dapat ditentukan. Objek perjanjian tersebut dengan demikian haruslah:"
-> 1)	dapat diperdagangkan, 2)	dapat ditentukan jenisnya,3)	dapat dinilai dengan uang, dan 4)	memungkinkan untuk dilakukan/dilaksanakan.” [^fn] [^fn]:Herlien Budiono, Op.Cit hlm.108]
-### 4. Undang-undang mensyaratkan adanya sebab/kausa sebagai salah satu syarat sahnya perjanjian. Undang-undang tidak memberikan pengertian mengenai kausa. Yang dimaksud kausa bukan hubungan sebab akibat, tetapi isi atau maksud dari perjanjian. Melalui syarat ini, didalam praktik maka hakim dapat mengawasi perjanjian tersebut. Hakim dapat menilai apakah isi perjanjian tidak bertentangan dengan undang-undang, ketertiban umum dan kesusilaan. [^fn] [^fn]:Miriam Darus Badruzman, Aneka hukum bisnis, hlm.26]
+> 1)	dapat diperdagangkan, 2)	dapat ditentukan jenisnya,3)	dapat dinilai dengan uang, dan 4)	memungkinkan untuk dilakukan/dilaksanakan.” [^fn12]
+
+[^fn12]:Herlien Budiono, Op.Cit hlm.108]
+### 4. Kausa Yang Halal
+Undang-undang mensyaratkan adanya sebab/kausa sebagai salah satu syarat sahnya perjanjian. Undang-undang tidak memberikan pengertian mengenai kausa. Yang dimaksud kausa bukan hubungan sebab akibat, tetapi isi atau maksud dari perjanjian. Melalui syarat ini, didalam praktik maka hakim dapat mengawasi perjanjian tersebut. Hakim dapat menilai apakah isi perjanjian tidak bertentangan dengan undang-undang, ketertiban umum dan kesusilaan[^fn13].
+
+[^fn13]:Miriam Darus Badruzman, Aneka hukum bisnis, hlm.26]
 ***
 ## Batal demi Hukum dan Dapat dibatalkan
 

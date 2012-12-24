@@ -8,7 +8,7 @@
 .imfellfont {font-family: im_fell, Georgia, Times, Serif; font-weight:normal; text-align:center}
 .linlibertinefont {font-family: linlibertine, Times, serif}
 .fanwoodfont {font-family: fanwood, georgia, times, serif}
-.nadiafont {font-family: nadiaserif, georgia, times, serif}
+.nadiafont {font-family: nadiaserif, courier, mono}
 .ornamentfont {font-family:davys; margin:0 .2em}
 
 
@@ -27,7 +27,7 @@ header {.imfellfont; text-align:center; font-weight:normal; margin:2em 0;
 article {hr {border-width:0; text-align:center}}
 article hr:after {.ornamentfont; content:"a"; position:relative; top:-.5em}
 
-blockquote {.nadiafont; font-size:.7em; margin:0 2em 0 4em; border-left:none; }
+blockquote {.nadiafont; font-size: .8em; margin:0 2em 1em 4em; border-left:none; p{font-size:1em;line-height: 1.1em}}
 
 a {color:80%black}
 .footnote {.fanwoodfont; font-size:.8em; position:relative; top:-.5em}
@@ -51,7 +51,7 @@ a {color:80%black}
 .toc-title:before {.ornamentfont; content:"R"}
 .toc-title:after {.ornamentfont; content:"T"}
 
-.aoc {float:left; margin:.5em;max-width:80px}
+.aoc {float:left; margin:0 5px 5px 0;max-width:80px}
 
 
 
@@ -66,6 +66,10 @@ a {color:80%black}
 
 // Layout
 .toc-container {text-align:center; ul{list-style:none; margin:0; padding:0} a:hover{text-decoration:none}}
+.contract-container {.attribute;font-size: 1em; line-height: 1.5em;.nadiafont; font-weight: normal; h3,h4 {text-align: center; .nadiafont;padding: 0 1em 1em} ol,ul{margin-left: 3em; line-height: 1.5em} p{margin-bottom: 0}}
+
+
+
 
 .columns (@column:3){text-indent: none;
 	-webkit-column-count: @column;
@@ -81,13 +85,14 @@ a {color:80%black}
 }
 
 
+
 // Attribution
 .attribute {
 	border: 3px double #666;
 	padding: 1em;
 	margin: 1em 0;
 	font-size: .8em;
-	line-height:1em;
+	line-height:1.1em;
 	color: #333; h2{text-align:center}
 }
 
@@ -110,38 +115,26 @@ a {color:80%black}
 
 // Responsive Design Style
 
-// max widht 400px 
-@media (max-width: 400px){
-	h1 {
-		font-size: 1.5em;
-		margin-bottom: 1em;
-		}
-	.subtitle {
-		margin-bottom:1em; font-size: 1.2em;
-		}
-
-	.subtitle:before {
-			display: none;
-		}
-	.subtitle::after {
-		display: none;
-		}
-	#autocolumn {.columns(1);}	
+// for 768px to 979px
+@media (min-width: 768px) and (max-width: 979px) {
 
 
 }
 
-// max width 480px
-@media (max-width: 480px){
-	body{font-size: 1em;}
+// for max 767px display
+@media (max-width: 767px) { 
 
+} 
+
+@media (min-width: 1200px) {
+	.autocolumn {.columns(3);}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
 	header h1 {
 		font-size: 2em;
 	}
-	blockquote {
-		font-size: .7em;
-	}
-
+	
 	h1 {
 	font-size: 2em;
 	line-height: 1em;
@@ -152,10 +145,49 @@ a {color:80%black}
 	}
 	.autocolumn {.columns (2)}
 
-
-} 
-
-// min width 980
-@media (min-width: 980px) {
-	.autocolumns {.columns(3)}
 }
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+	body {font-size: 1em}
+	h1 {
+		font-size: 1.5em;
+		margin-bottom: 1em;
+		}
+	blockquote {
+		margin-left: 0px;
+		}
+
+	.subtitle {
+		margin-bottom:1em; font-size: 1.2em;
+		}
+
+	.subtitle:before {
+			display: none;
+		}
+	.subtitle::after {
+		display: none;
+		}
+	.autocolumn {.columns(1);}	
+}
+
+@media (max-width: 979px) {
+
+}
+
+@media (min-width: 980px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
